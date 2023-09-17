@@ -1,0 +1,19 @@
+# Workspace section
+# A workspace is a set of packages that share the same Cargo.lock and output directory
+[workspace]
+members = ["./contracts/*", "./packages/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["stepit <stepit@mib.tech"]
+license-file = "./LICENSE"
+keywords = ["smart contract", "cosmwasm", "blockchain"]
+
+[workspace.dependencies]
+cosmwasm-std    = "1.2"
+cosmwasm-schema = "1.2"
+cw-storage-plus = "1.0"
+cw2 = "1.0"
+thiserror = "1"
+cw-utils = "1.0.1"

@@ -1,0 +1,13 @@
+[package]
+name = "common"
+# TODO: add concrete description
+description = "Package description."
+version = { workspace = true }
+edition = { workspace = true }
+authors =  { workspace = true }
+license-file = { workspace = true }
+keywords = { workspace = true }
+
+[dependencies]
+cosmwasm-std = { workspace = true }
+cosmwasm-schema = { workspace = true }
