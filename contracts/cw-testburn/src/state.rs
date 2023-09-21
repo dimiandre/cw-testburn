@@ -7,8 +7,7 @@ use cw_storage_plus::Item;
 
 /// This struct contains configuration parameters for the contract.
 #[cw_serde]
-pub struct Config {
-}
+pub struct Config {}
 
 /// Single object storing contract's configuration.
 pub const CONFIG: Item<Config> = Item::new("config");
