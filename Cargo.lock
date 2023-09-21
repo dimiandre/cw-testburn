@@ -252,6 +252,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "cw-testburn"
+version = "0.1.0"
+dependencies = [
+ "common",
+ "cosmwasm-schema",
+ "cosmwasm-std",
+ "cw-multi-test",
+ "cw-storage-plus",
+ "cw-utils",
+ "cw2",
+ "thiserror",
+]
+
+[[package]]
 name = "cw-utils"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -442,20 +456,6 @@ checksum = "ded41244b729663b1e574f1b4fb731469f69f79c17667b5d776b16cda0479449"
 dependencies = [
  "rand_core 0.6.4",
  "subtle",
-]
-
-[[package]]
-name = "first-contract"
-version = "0.1.0"
-dependencies = [
- "common",
- "cosmwasm-schema",
- "cosmwasm-std",
- "cw-multi-test",
- "cw-storage-plus",
- "cw-utils",
- "cw2",
- "thiserror",
 ]
 
 [[package]]

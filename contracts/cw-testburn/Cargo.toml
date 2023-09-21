@@ -1,5 +1,5 @@
 [package]
-name = "first-contract"
+name = "cw-testburn"
 description = "Contract description."
 version = { workspace = true }
 edition = { workspace = true }
